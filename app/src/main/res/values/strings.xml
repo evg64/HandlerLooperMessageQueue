@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidProcessesAndThreads</string>
+    <string name="same_process">Same process</string>
+    <string name="another_process">Another process</string>
+    <string name="process_id">Process id = %d</string>
+    <string name="main_activity">Main</string>
+</resources>
