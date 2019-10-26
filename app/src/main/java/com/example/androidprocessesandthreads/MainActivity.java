@@ -1,9 +1,8 @@
 package com.example.androidprocessesandthreads;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Process;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -22,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Class<? extends Activity> activityClass = v.getId() == R.id.buttonSameActivity ?
-                        SameProcessActivity.class :
-                        AnotherProcessActivity.class;
-                startActivity(new Intent(MainActivity.this, activityClass));
+                long iteration = 0;
+                while (true) {
+                    Log.d("MainActivity", "iteration = " + iteration++);
+                }
             }
         };
         findViewById(R.id.buttonSameActivity).setOnClickListener(listener);
