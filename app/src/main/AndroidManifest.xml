@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".handlerpractice.HandlerActivity"></activity>
         <activity
             android:name=".AnotherProcessActivity"
             android:label="@string/another_process"

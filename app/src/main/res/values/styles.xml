@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="FinanceProgressDefaultStyle">
+        <item name="color">@color/colorAccent</item>
+        <item name="inactiveColor">@color/colorInactive</item>
+        <item name="textSize">@dimen/defaultTextSize</item>
+        <item name="strokeWidth">@dimen/defaultStrokeWidth</item>
+    </style>
 </resources>

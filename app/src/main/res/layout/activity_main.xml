@@ -29,6 +29,17 @@
         app:layout_constraintStart_toEndOf="@+id/buttonSameActivity"
         app:layout_constraintTop_toBottomOf="@+id/processId" />
 
+    <Button
+        android:id="@+id/handlerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/handler_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnotherActivity" />
+
     <TextView
         android:id="@+id/processId"
         android:layout_width="wrap_content"

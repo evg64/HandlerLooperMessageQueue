@@ -4,4 +4,10 @@
     <string name="another_process">Another process</string>
     <string name="process_id">Process id = %d</string>
     <string name="main_activity">Main</string>
+    <string name="progress_template">%d %%</string>
+    <string name="handler_activity">Handler activity</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
 </resources>
